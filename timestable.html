@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Times Table</title>
+    <!--importing external js file-->
+    <script src="javascript/table.js"></script>
+ 
+</head>
+<body>
+    <!-- calling the function removeElement on onchange event of the input type text, 
+         if the user inputs another number without refreshing the page-->
+    <input type="number" id="num" placeholder="Enter the number" onchange="removeElement()"/>
+    <!-- calling the function timesTable() on onclick event of the button, after taking
+         an input from the user-->
+    <button onclick="timesTable() ">Get Times Table</button>
+   
+</body>
+</html>
